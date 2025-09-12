@@ -39,9 +39,9 @@ NUM_ARTICLES_TO_SCAN = 50 # Scan more articles for better trend analysis
 NUM_SUGGESTIONS = 15 # Generate more topic suggestions
 
 # Email settings (replace with your details)
-SENDER_EMAIL = "abhijaydutta123@gmail.com"
-SENDER_PASS = "nzxg fahz toee ydpp"  # Use an App Password
-RECIPIENT_EMAIL = "abhijaydutta.adid@gmail.com"
+SENDER_EMAIL = os.getenv("SENDER_EMAIL")
+SENDER_PASS = os.getenv("SENDER_PASS")
+RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
