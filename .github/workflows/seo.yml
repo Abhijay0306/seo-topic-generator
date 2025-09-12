@@ -33,3 +33,4 @@ jobs:
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
         run: |
           python seo.py
+          python seonew.py
